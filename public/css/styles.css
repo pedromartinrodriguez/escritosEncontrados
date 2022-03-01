@@ -1,0 +1,244 @@
+/*
+font-family: 'EB Garamond', serif;
+font-family: 'Cormorant Garamond', serif;
+*/
+*{
+    box-sizing: border-box;
+    background-color: #FAF7F2;
+}
+
+
+header{
+    font-family: 'EB Garamond', serif;
+    font-size: 18px;
+    letter-spacing: 0.2em;
+    margin-top: -2px;
+    background-color: #FAF7F2;
+    color: #325C59;
+    width: 100%;
+    text-align: left;
+    padding-left: 5%;
+    padding-top: 25px;
+}
+
+header nav{
+    display: flex;
+    justify-content: center;
+    width: 95%;
+    margin-top: 10px;
+    /*background-color: #e6dbdb;*/
+    background-color: #FAF7F2;
+    /*border: 1px solid rgb(82, 81, 81);*/
+}
+
+.menu-bar{
+    display: block;
+    width: 100%;
+}
+
+.menu-bar .bt-menu{
+    display: none;
+    padding: 20px;
+}
+
+header nav ul{
+    overflow: hidden;
+    list-style: none;
+}
+
+header nav ul li{
+    float: left;
+}
+
+header nav ul li a{
+    color: #325C59;
+    padding: 20px;
+    text-decoration: none;
+}
+
+header nav ul li a:hover{
+    background-color: #F2EFEB;
+}
+
+header nav ul li a:visited{
+    text-decoration: none;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container img{
+    width: auto;
+    height: 4em;
+}
+button{
+    margin-right: 5vmax;
+}
+
+.title{
+    background-color: #f9f9f9;
+}
+.title article h2{
+    color: #325C59;
+    border-top: 1px solid #017E74;
+    border-bottom: 1px solid #017E74;
+    width: max-content;
+    margin: auto;
+}
+
+section{
+    color: #074731;
+    width: 89%;
+    margin: auto;
+    padding: 20px;
+    border-top: 5px solid #EBD367;
+    border-left: 5px solid #AEC4B6;
+    border-right: 5px solid #FFBAB4;
+    border-bottom: 5px solid #2C81A6;
+}
+
+
+article{
+    color: #074731;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 17px;
+    line-height: 1.7em;
+    letter-spacing: 0.1em;
+    width: 100%;
+    margin: auto;
+    text-align: justify;
+}
+
+hr{
+    color: #074731;
+}
+
+section article img{
+    width: 100%;
+    border: 1px solid black;
+}
+
+.main-article{
+    padding: 40px;
+}
+
+section article div{
+    text-align: center;
+    margin-top: 15px;
+}
+
+#bienvenidos{
+    color: #325C59;
+    text-decoration: line-through;
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
+}
+
+#nombre{
+    width: 50%;
+}
+
+#email{
+    width: 50%;
+}
+
+#button{
+    padding: 5px;
+    color: #325c59;
+    border-radius: 4px;
+    border: 1px solid #325C59;
+}
+
+.mail{
+    text-align: center;
+}
+.mail a{
+    font-family:  'Cormorant Garamond', serif;
+    text-decoration: none;
+    color: black;
+}
+footer{
+    color: #325C59;
+    font-family:  'EB Garamond', serif;
+    text-align: center;
+}
+
+footer p{
+    margin-top: 20px;
+}
+
+footer a{
+    color: #EBD367;
+}
+
+@media screen and (max-width: 800px) {
+    .container img{
+        width: auto;
+        height: 2em;
+    }
+
+    header{
+        font-size: 16px;
+    }
+
+    header nav{
+        display: flex;
+        width: 100%;
+        height: 100%;
+        left: -100%;
+        margin: auto;
+        position: fixed;
+        justify-content: center;
+    }
+
+    header nav ul{
+        padding-left: inherit;
+    }
+
+    header nav ul li{
+        display: block;
+        float: none;
+        margin-bottom: 20px;
+    }
+
+    header nav ul li a:hover{
+        background-color: #c4b6b6;
+    }
+
+    header nav ul li a {
+        padding: 20px;
+    }
+
+    .menu-bar{
+        display: block;
+        width: 95%;
+        background-color: #e6dbdb;
+    }
+
+    .menu-bar .bt-menu{
+        color: #325C59;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+        padding: 20px;
+        text-decoration: none;
+        font-weight: bold;
+
+    }
+
+    article{
+        font-size: 16px;
+    }
+
+    footer p{
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        padding-top: 25px;
+    }
+}

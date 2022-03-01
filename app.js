@@ -36,7 +36,13 @@ app.get('/contact', (req, res) =>{
     res.sendFile(path.join(__dirname, '/contact.html'));
 });
 
-app.listen(3002, () =>
-    console.log('Servidor corriendo en el puerto 3002')
-);
+//app.listen(3002, () =>
+//    console.log('Servidor corriendo en el puerto 3002')
+//);
+
+// Configuracion para Heroku
+
+app.listen(process.env.PORT || 3000, function(){
+    console.log('Servidor corriendo en el puerto 3002');
+})
 

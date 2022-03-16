@@ -139,6 +139,14 @@ section article div{
     flex-direction: column;
 }
 
+form label{
+    margin-top: 8px;
+}
+
+.p-contact{
+    margin-top: 0;
+}
+
 #nombre{
     width: 50%;
 }

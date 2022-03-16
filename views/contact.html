@@ -47,20 +47,22 @@
     </div>
     <section>
         <article>
-            <p>En este espacio además de comentarios, son bienvenidos poemas, cuentos o cualquier otro escrito. </p>
+            <p class="p-contact">En este espacio además de comentarios, son bienvenidos poemas, cuentos o cualquier otro escrito. </p>
         </article>
         <hr>
         <article>
-            <form action="enviar2.php" method="POST" enctype="text/plain" id="form">
+            <form action="/send-email" method="POST" enctype="text/plain" id="form">
                 <label for="nombre">Nombre:</label>
-                <input type="text" name="nombre" id="nombre">
+                <input type="text" name="name" id="nombre" autofocus>
 
                 <label for="email">Email:</label>
                 <input type="email" name="email" id="email">
 
                 <label for="comentario">Comentarios:</label>
-                <textarea name="comentario" id="comentario" cols="30" rows="10"></textarea>
+                <textarea name="message" id="comentario" cols="30" rows="10"></textarea>
 
+                <label for="archivo">Queres adjuntar un archivo?</label>
+                <input name="archivo" type="file" id="archivo">
 
                 <p><button type="submit" id="button">Enviar</button></p>
 

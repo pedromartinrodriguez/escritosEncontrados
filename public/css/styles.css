@@ -102,7 +102,7 @@ section{
 
 article{
     color: #074731;
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'EB Garamond', serif;
     font-size: 17px;
     line-height: 1.7em;
     letter-spacing: 0.1em;
@@ -116,9 +116,19 @@ hr{
 }
 
 section article img{
-    width: 100%;
+    width: 95%;
     border: 1px solid black;
 }
+
+.more-container{
+    display: flex;
+}
+
+.more-article{
+    display: flex;
+    justify-content: center;
+}
+
 
 .main-article{
     padding: 40px;
@@ -237,6 +247,14 @@ footer a{
         text-decoration: none;
         font-weight: bold;
 
+    }
+
+    .more-container{
+        display: block;
+    }
+    
+    section article img {
+        margin-top: 10px;
     }
 
     article{

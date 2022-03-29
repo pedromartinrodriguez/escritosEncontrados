@@ -187,8 +187,12 @@ footer{
 }
 
 footer p{
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
+}
+
+footer .spotify{
+    margin-top: 60px;
+    margin-bottom: 35px;
 }
 
 footer a{
@@ -262,10 +266,14 @@ footer a{
         font-size: 16px;
     }
 
+    footer .spotify{
+        display: block;
+    }
+
     footer p{
         margin: auto;
         display: flex;
         flex-direction: column;
-        padding-top: 25px;
+        padding-top: 10px;
     }
 }

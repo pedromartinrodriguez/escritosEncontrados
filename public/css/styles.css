@@ -4,21 +4,23 @@ font-family: 'Cormorant Garamond', serif;
 */
 *{
     box-sizing: border-box;
-    background-color: #FAF7F2;
+    background-color: #f6f5f5;
 }
 
 
 header{
-    font-family: 'EB Garamond', serif;
+    
+    font-family: 'Courier Prime', monospace;
     font-size: 18px;
     letter-spacing: 0.2em;
     margin-top: -2px;
-    background-color: #FAF7F2;
-    color: #325C59;
+    background-color: #f6f5f5;
+    color: #000000;
     width: 100%;
     text-align: left;
     padding-left: 5%;
     padding-top: 25px;
+    padding-bottom: 20px;
 }
 
 header nav{
@@ -81,7 +83,7 @@ button{
     background-color: #f9f9f9;
 }
 .title article h2{
-    color: #325C59;
+    color: #000000;
     border-top: 1px solid #017E74;
     border-bottom: 1px solid #017E74;
     width: max-content;
@@ -89,26 +91,16 @@ button{
 }
 
 section{
-    color: #074731;
-    width: 89%;
+    max-width: 90%;
     margin: auto;
-    padding: 20px;
-    border-top: 5px solid #EBD367;
-    border-left: 5px solid #AEC4B6;
-    border-right: 5px solid #FFBAB4;
-    border-bottom: 5px solid #2C81A6;
 }
 
 
 article{
-    color: #074731;
-    font-family: 'EB Garamond', serif;
+    font-family: 'Courier Prime', monospace;
     font-size: 17px;
-    line-height: 1.7em;
-    letter-spacing: 0.1em;
-    width: 100%;
-    margin: auto;
-    text-align: justify;
+    line-height: 1.6em;
+    text-align: justify;    
 }
 
 hr{
@@ -196,7 +188,7 @@ footer .spotify{
 }
 
 footer a{
-    color: #2C81A6;
+    color: #000000;
 }
 
 @media screen and (max-width: 800px) {
